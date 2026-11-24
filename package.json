@@ -1,27 +1,20 @@
 {
   "name": "resource-mgmt",
   "version": "1.0.0",
-  "description": "This is a reference project for the DVOPS Subject",
+  "description": "This is a reference project for the DVOPS subject.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AhmadW-2505/resource-mgmt.git"
+    "url": ""
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/AhmadW-2505/resource-mgmt/issues"
-  },
-  "homepage": "https://github.com/AhmadW-2505/resource-mgmt#readme",
   "dependencies": {
-    "body-parser": "^2.4.0",
-    "express": "^5.3.0",
-    "fs": "^0.0.1-security"
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
 }
