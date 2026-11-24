@@ -9,6 +9,9 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 app.use(express.static("./public"));
 
+const { viewResources } = require('./utils/ViewResourceUtil');
+app.get('/view-resources', viewResources);
+
 const { editResource } = require('./utils/EditResourceUtil');
 app.put('/edit-resource/:id', editResource);
 
