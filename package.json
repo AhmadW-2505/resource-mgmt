@@ -4,7 +4,7 @@
   "description": "This is a reference project for the DVOPS Subject",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -23,5 +23,7 @@
     "express": "^5.3.0",
     "fs": "^0.0.1-security"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
 }
